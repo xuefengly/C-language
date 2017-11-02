@@ -1,0 +1,17 @@
+1.
+写出程序的输出：
+int i=1;
+switch ( i%3 ) {
+case 0: printf("zero");
+case 1: printf("one");
+case 2: printf("two");
+}
+答案：onetwo
+解析：i%3为1，跳转到case1,输出one，因为没有break,继续输出two
+2.写出程序的输出：
+int a = 58;
+if ( a>50 ) printf("A");
+if ( a>40 ) printf("B");
+if ( a>30 ) printf("C");
+答案:ABC
+解析：因为a=58三个if都符合,所以都输出
